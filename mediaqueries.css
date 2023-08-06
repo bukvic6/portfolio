@@ -6,3 +6,31 @@
         display: flex;
     }
 }
+@media screen and (max-width: 1000px) {
+  #profile {
+    display: block;
+  }
+  section {
+    height: fit-content;
+  }
+  .picture_container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 2rem;
+  }
+  section {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+
+  
+}
