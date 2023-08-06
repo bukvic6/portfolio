@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="nav_des">
+        <div class="logo">Milica Bukvić</div>
+        <div>
+            <ul class="nav_links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#about">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="nav_mob">
+        <div class="logo">Milica Bukvić</div>
+        <div class="mob-menu">
+          <div class="mob-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      <!-- <section id="profile">
+        <div class="picture_container">
+            <img src="/assets/profile_pic.jpg" alt="profile picture"/>
+        </div>
+        <div class="profile_text">
+            <p class="profile_text_1">Hello, I'm</p>
+            <h1 class="title">Bukvić Milica</h1>
+            <p class="profile_text_2">Junior Developer</p>
+            <div class="btn-container">
+              <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact Info
+              </button>
+              <div id="socials-container">
+                <img
+                  src="./assets/linkedin.png"
+                  alt="My LinkedIn profile"
+                  class="icon"
+                  onclick="location.href='https://linkedin.com/in/milica-bukvic'"
+                />
+                <img
+                  src="./assets/github.png"
+                  alt="Github profile"
+                  class="icon"
+                  onclick="location.href='https://github.com/bukvic6'"
+                />
+              </div>
+            </div>
+
+      </section> -->
+    <script src="script.js"></script>
+</body>
+</html>
