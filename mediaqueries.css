@@ -2,10 +2,9 @@
   #contact {
     height: 40hv;
   }
-  #profile{
+  #profile {
     height: 85vh;
     margin-bottom: 0;
-
   }
   .details-container {
     width: 80%;
@@ -18,26 +17,21 @@
   .contact-container {
     display: inline;
   }
-  
-
 }
 @media screen and (max-width: 400px) {
-  #profile{
+  #profile {
     height: 100vh;
     margin-bottom: 0;
   }
   .text-container {
     width: 70%;
-  
   }
-
 }
 @media screen and (max-wodth: 1400px) {
-  #profile{
+  #profile {
     height: 83vh;
     margin-bottom: 6rem;
   }
-  
 }
 @media screen and (max-width: 1200px) {
   .arrow {
@@ -52,12 +46,13 @@
   #contact {
     margin-top: 4rem;
   }
-  #profile, .picture_container{
+  #profile,
+  .picture_container {
     display: block;
   }
-  #tech, .skills-container {
+  #tech,
+  .skills-container {
     margin-top: 2rem;
-
   }
   section {
     height: fit-content;
@@ -78,6 +73,6 @@
     margin-bottom: 3rem;
   }
   .floralpic {
-    width: 100%;  
+    width: 100%;
   }
 }

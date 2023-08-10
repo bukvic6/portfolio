@@ -253,13 +253,12 @@ section {
   position: relative;
 }
 .about-container {
-  margin-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
 }
 .details-container {
+  margin-top: 2.5rem;
   width: 50%;
   padding: 2rem;
   background: white;
@@ -272,10 +271,12 @@ section {
   margin-top: 5px;
 }
 .text-container {
+  margin-top: 20px;
   width: 70%;
   text-align: center;
 }
 .edu {
+  margin-top: 20px;
   height: 5rem;
 }
 
@@ -319,9 +320,10 @@ section {
 }
 
 /* skills */
-#skills {
+#tech {
   position: relative;
 }
+
 
 .skills-container {
   margin-top: 4rem;
@@ -345,4 +347,10 @@ section {
 }
 .skill-icon {
   height: 4rem;
+}
+.arrow {
+  height: 3rem;
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
 }
