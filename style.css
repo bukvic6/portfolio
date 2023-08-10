@@ -272,7 +272,8 @@ section {
   margin-top: 5px;
 }
 .text-container {
-  width: 55%;
+  width: 70%;
+  text-align: center;
 }
 .edu {
   height: 5rem;
@@ -329,7 +330,6 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 .class-container {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -343,6 +343,6 @@ section {
   margin: 5px;
   padding: 2rem;
 }
-.skill-icon{
+.skill-icon {
   height: 4rem;
 }
