@@ -46,27 +46,21 @@
   #contact {
     margin-top: 4rem;
   }
-  #profile,
-  .picture_container {
-    display: block;
-  }
-  #tech,
-  .skills-container {
-    margin-top: 2rem;
-  }
-  section {
-    height: fit-content;
-    margin: 0 5%;
+  #profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
   }
 
-  .picture_container {
+  .picture_container{   
     width: 250px;
     height: 250px;
-    margin: 0 auto 2rem;
+    flex-shrink: 0;
   }
 
   section {
-    margin: 5% 5%;
+    margin: 0 5%;
   }
   .floral {
     width: 100%;
